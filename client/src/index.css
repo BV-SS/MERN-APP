@@ -36,3 +36,14 @@ header a {
   margin: 0 auto;
   padding: 20px;
 }
+
+.workout_card{
+  margin-left: 40px;
+  padding: 10px;
+  margin: 15px;
+  border-left: 14px solid rgb(70, 3, 177);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  padding-left: 35px;
+  background-color: #fff;
+}
