@@ -3,11 +3,11 @@ import React from 'react'
 export default function workoutDetails({workout}) {
   console.log(workout)
   return (
-    <div className="details_card">
-        <p><span >Title : </span>{workout.title}</p>
-        <p><span >Reps :</span>{workout.reps}</p>
-        <p><span >Load : </span>{workout.load}</p>
-        <p>Created at : {workout.createdAt}</p>
+    <div className="workout_details">
+        <h4>{workout.title}</h4>
+        <p><strong >Reps : </strong>{workout.reps}</p>
+        <p><strong >Load : </strong>{workout.load}</p>
+        <p> {workout.createdAt}</p>
     </div>
   )
 }

@@ -37,7 +37,12 @@ header a {
   padding: 20px;
 }
 
-.workout_card{
+.home {
+  display: grid;
+  grid-template-columns : 3fr 1fr;
+}
+
+.workout_details{
   margin-left: 40px;
   padding: 10px;
   margin: 15px;
@@ -46,4 +51,15 @@ header a {
   border-radius: 5px;
   padding-left: 35px;
   background-color: #fff;
+}
+
+.workout_details h4 {
+  color: var(--error);
+  margin: 0px 0px 10px 0px;
+}
+
+.workout_details p {
+  margin: 0 0 4px 0;
+  font-size: 0.9em;
+  color : #383838;
 }
