@@ -1,7 +1,6 @@
 import React from 'react'
 
 export default function workoutDetails({workout}) {
-  console.log(workout)
   return (
     <div className="workout_details">
         <h4>{workout.title}</h4>

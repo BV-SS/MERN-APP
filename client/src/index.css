@@ -37,6 +37,8 @@ header a {
   padding: 20px;
 }
 
+/* homepage */
+
 .home {
   display: grid;
   grid-template-columns : 3fr 1fr;
@@ -46,7 +48,7 @@ header a {
   margin-left: 40px;
   padding: 10px;
   margin: 15px;
-  border-left: 14px solid rgb(70, 3, 177);
+  border-left: 10px solid rgb(70, 3, 177);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 5px;
   padding-left: 35px;
@@ -62,4 +64,61 @@ header a {
   margin: 0 0 4px 0;
   font-size: 0.9em;
   color : #383838;
+}
+
+/* create new workout form  */
+
+.create_workout{
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0 15px 0px;
+  padding: 1rem;
+  background: white;
+  box-shadow: 5px 5px 5px rgba(52, 52, 52, 0.333);
+  border-top: 10px solid rgb(70, 3, 177);
+  border-radius: 5px;
+}
+
+.create_workout input{
+  display: block;
+  margin: 0 0 10px 0;
+  height: 25px;
+}
+
+.create_workout label{
+  font-size: 0.9em;
+  margin: 0 0 4px 0;
+  color : #383838;
+}
+
+.create_workout h3{
+  margin: 0 0 10px 0;
+  color: var(--error);
+}
+
+.create_workout button{
+  margin: 10px 0 0 0;
+  padding: 7px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--primary);
+  font-size: 1em;
+  color: #fff;
+  cursor: pointer;
+  
+}
+
+.create_workout button:hover{
+  background-color: #037253;
+}
+
+.error{
+  margin: 10px 0 10px 0;
+  font-size: 0.9em;
+  color: var(--error);
+  border: var(--error);
+  background-color: #f7e1e7;
+  font-weight: medium;
+  border-radius: 5px;
+  padding: 10px;
 }
