@@ -16,7 +16,6 @@ export default function Home() {
         }
     }
     useEffect(() => {
-        
         fetchData()
     }, [])
 
@@ -24,7 +23,7 @@ export default function Home() {
     <div className='home'>
         <div  className='workout_card'>
         {workouts && workouts.workouts.map((workout) => (
-                <WorkoutDetails key={workout._id} workout={workout}/>
+                <WorkoutDetails key={workout._id} workout={workout} fetchData={fetchData}/>
             ))
         }
         </div>

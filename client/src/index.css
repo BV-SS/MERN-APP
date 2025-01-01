@@ -45,6 +45,7 @@ header a {
 }
 
 .workout_details{
+  position: relative;
   margin-left: 40px;
   padding: 10px;
   margin: 15px;
@@ -66,6 +67,25 @@ header a {
   color : #383838;
 }
 
+.workout_details span{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}
+
+.workout_details span:hover{
+  background: #d6d6d6;
+}
+
+.workout_details span:active{
+  background: #383838;
+  color:#f1f1f1;
+}
 /* create new workout form  */
 
 .create_workout{
