@@ -22,7 +22,7 @@ mongoose.connect("mongodb://localhost:27017/Worklist")
 // Middleware
 app.use(express.json());
 
-app.use(cors({origin : "http://localhost:3000"}))
+app.use(cors({origin : "http://localhost:3001"}))
 
 // Note : we have to use next() method at the end of this middleware in order to move to next bit of code else the execution will be stuck here.
 app.use((req,res,next) => {
